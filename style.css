@@ -1042,6 +1042,7 @@ button {
   .menu-bar {
     padding: var(--space-16) var(--container-padding);
     gap: var(--space-16);
+    width: 90%;
   }
 
   .menu-bar__logo img {
