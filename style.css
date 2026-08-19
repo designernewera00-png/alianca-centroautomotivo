@@ -26,7 +26,7 @@
   --color-badge-border: rgba(255, 50, 50, 0.19);
 
   /* Typography */
-  --font-family: 'Sora', Arial, Helvetica, sans-serif;
+  --font-family: "Sora", Arial, Helvetica, sans-serif;
   --fs-12: 12px;
   --fs-14: 16px;
   --fs-16: 16px;
@@ -128,7 +128,11 @@ button {
   padding: var(--space-20);
   border: 0.7px solid var(--color-button-border);
   border-radius: var(--radius-sm);
-  background-image: linear-gradient(81.5deg, var(--color-red-gradient-start) 0%, var(--color-red-gradient-end) 98.936%);
+  background-image: linear-gradient(
+    81.5deg,
+    var(--color-red-gradient-start) 0%,
+    var(--color-red-gradient-end) 98.936%
+  );
   color: var(--color-white);
   font-weight: 700;
   font-size: var(--fs-16);
@@ -234,10 +238,14 @@ button {
 }
 
 .hero__bg::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(10, 10, 10, 0) 32.5%, #0a0a0a 87.43%);
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 10, 10, 0) 32.5%,
+    #0a0a0a 87.43%
+  );
 }
 
 .hero__content {
@@ -405,7 +413,7 @@ button {
 }
 
 .service__image-media::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 46%, #000000 89%);
@@ -824,10 +832,9 @@ button {
 }
 
 .cta__bg::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.88);
 }
 
 .cta__inner {
@@ -1041,13 +1048,13 @@ button {
   /* Menu bar */
   .menu-bar {
     padding: var(--space-16) var(--container-padding);
-    gap: var(--space-16);
+    gap: 10px;
     width: 90%;
   }
 
   .menu-bar__logo img {
-    width: 99.806px;
-    height: 13.745px;
+    width: 87.053px;
+    height: 11.989px;
   }
 
   .btn--nav {
@@ -1066,7 +1073,11 @@ button {
   }
 
   .hero__bg::after {
-    background: linear-gradient(to bottom, rgba(10, 10, 10, 0) 41.557%, #0a0a0a 100%);
+    background: linear-gradient(
+      to bottom,
+      rgba(10, 10, 10, 0) 41.557%,
+      #0a0a0a 100%
+    );
   }
 
   .hero__content {
@@ -1177,10 +1188,6 @@ button {
   .cta {
     min-height: 763px;
     padding: 60px var(--container-padding);
-  }
-
-  .cta__bg::after {
-    background-color: rgba(0, 0, 0, 0.8);
   }
 
   .cta__title {
